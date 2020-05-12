@@ -1,0 +1,86 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #51af74;
+    margin:0;
+    padding:0;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 45%;
+    min-height: 45vh;
+    min-width: 450px;
+    flex-direction: column;
+    border: 1px solid red;
+    flex-shrink: inherit;   /*--- ez mit is csinal?  */
+    margin: 0 2% 0 2%;
+}
+
+.inNum{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 10vh;
+    padding: 2vh 0 0 0;
+    border: 0px solid yellow;
+}
+
+.inPut{
+    border: none;
+    border-radius: 15px;
+    height: 5vh;
+    width: 20vmin;
+    flex-shrink: inherit;
+    }
+
+input{
+    text-align: center;
+    font-size: 5vh;
+}
+
+#jel{
+    font-size: 5vh;
+    font-weight: bold;
+    margin: 0 2vw 0 2vw;
+}
+
+.runBtn{
+    margin: 2vh 2vw 2rem 2vw;
+    padding: 2vh 2vw 2vh 2vw;
+    min-height: 8vh;
+    min-width: 20vmax;
+    font-size: 5vh;
+    border: none;
+}
+
+.sum{
+    font-size: 3.5vh;
+    font-weight: bold;
+    text-align: center;
+    height: 6vh;
+}
+
+/* END of first session */
+
+.inNum2{
+    text-align: center;
+    font-size: 6vh;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
